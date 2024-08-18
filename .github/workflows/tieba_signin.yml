@@ -34,4 +34,3 @@ jobs:
         BDUSS: ${{ secrets.BDUSS }}
       run: |
         mvn compile exec:java -Dexec.mainClass="top.srcrs.Run" -Dexec.args="${BDUSS}"
-
